@@ -12,10 +12,10 @@
 #include <RevEng_PAJ7620.h>
 #include  <WiFi.h>
 
-#define DATABASE_URL "https://smartbin-galaksija-default-rtdb.firebaseio.com/"
-#define WIFI_SSID "Galaxy A54"
-#define WIFI_PASSWORD "12345678"
-#define API_KEY "AIzaSyAuVIPXZ2hFkuvtv2vLURVdaTTajXJGOXg"
+#define DATABASE_URL "URL BAZE NA FIREBASE"
+#define WIFI_SSID "NAZIV WIFI MREŽE"
+#define WIFI_PASSWORD "WIFI PASSWORD"
+#define API_KEY "API KEY SA FIREBASE"
 
 RevEng_PAJ7620 sensor = RevEng_PAJ7620();
 FirebaseData fbdo;
