@@ -21,7 +21,7 @@ namespace desktopprog
             InitializeComponent();
             label3.Visible = false;
 
-            firebase = new FirebaseClient("https://smartbin-galaksija-default-rtdb.firebaseio.com/");
+            firebase = new FirebaseClient("URL BAZE PODATAKA");
 
             // Start listening for changes in the database
             ListenToDatabase();
